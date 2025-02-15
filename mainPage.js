@@ -50,3 +50,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial render
     renderWeek();
   });
+  function submit(){
+    document.body.classList.add('fade-out');
+    setTimeout(() => {
+        window.location.href="mood.html";
+    }, 500);
+}
