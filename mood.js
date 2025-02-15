@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function goBack() {
     document.body.classList.add('fade-out');
     setTimeout(() => {
-        window.location.href = ".html"; // Change this to the correct URL
+        window.location.href = "mainPage.html"; // Change this to the correct URL
     }, 500);
 }
 function goNext() {
